@@ -40,7 +40,7 @@ If you haven't written a markdown file yet, [click here for a rundown](https://g
 
 ### Instructions
 
-1. Navigate to the root of your project and run `npm init -y` &mdash; this will initialize a `package.json` file for your project. The `package.json` file is required for installing third party npm packages and saving their version numbers. If you fail to initialize a `package.json` file, it will be troublesome, and at times almost impossible for anyone else to run your code after cloning your project.
+1. Navigate to the root of your project and run `npm init -y` &mdash; this will initialize a `package.json` file for your project. The `package.json` file is required for installing third party npm packages and saving their version numbers. If you fail to initialize a `package.json` file, it will be troublesome, and at times almost impossible for anyone else to r  un your code after cloning your project.
 
 2. Make a `.gitignore` file and add the following lines to it. This will tell git not to track these files, and thus they won't be committed to Github.
 
@@ -146,8 +146,11 @@ require("dotenv").config();
    * Step Three: Once logged in, navigate to <https://developer.spotify.com/my-applications/#!/applications/create> to register a new application to be used with the Spotify API. You can fill in whatever you'd like for these fields. When finished, click the "complete" button.
 
    * Step Four: On the next screen, scroll down to where you see your client id and client secret. Copy these values down somewhere, you'll need them to use the Spotify API and the [node-spotify-api package](https://www.npmjs.com/package/node-spotify-api).
+   id: 4733144afe494653aa74b61c0ba659df
+   Client Secret 04941dfbacd04f83a9d13b1908f9f2fe 
 
-3. `node liri.js movie-this '<movie name here>'`
+
+3. `node liri.js movie-this '<Spider-man>'`
 
    * This will output the following information to your terminal/bash window:
 
@@ -168,7 +171,7 @@ require("dotenv").config();
 
      * It's on Netflix!
 
-   * You'll use the `axios` package to retrieve data from the OMDB API. Like all of the in-class activities, the OMDB API requires an API key. You may use `trilogy`.
+   * You'll use the `axios` package to retrieve data from the OMDB API. Like all of the in-class activities, the OMDB API requires an API key. You may use `trilogy`?
 
 4. `node liri.js do-what-it-says`
 

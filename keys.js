@@ -1,4 +1,4 @@
-//Greet the user
+//log this is loaded
 console.log('This is loaded')
 
 //Get Spotify package
