@@ -12,7 +12,7 @@ LIRI is like iPhone's SIRI, however, while SIRI is a 	Speech Interpretation and 
 3. At command prompt run `node liri.js <pass in an instruction from above>`
 
 ### Screenshot of Progress
-![Bug](https://raw.github.comhttps://github.com/minj12/liri-node-app/blob/master/images/Bug.JPG)
+![Bug](https://github.com/minj12/liri-node-app/blob/master/images/Bug.JPG)
 
 ## TECHNOLOGIES USED
 
