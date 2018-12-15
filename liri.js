@@ -16,6 +16,7 @@ var Spotify = require('node-spotify-api');
 var filename = './log.txt';
 //NPM module used to write output to console and log.txt simulatneously
 var log = require('simple-node-logger').createSimpleFileLogger(filename);
+console.log(keys)
 log.setLevel('all');
 
 //argv[2] chooses users actions; argv[3] is input parameter, ie; movie title
