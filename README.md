@@ -26,7 +26,7 @@ LIRI is like iPhone's SIRI, however, while SIRI is a 	Speech Interpretation and 
 
 ## Version 1 bugs
 Error shown as unable to take spotify id and secret as 	shown above picture.
-       *fix*: Spotify id and secret error gone
+**fix*: Spotify id and secret error gone
 
 ### AUTHOR
 *Min Joseph*
