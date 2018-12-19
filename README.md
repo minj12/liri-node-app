@@ -12,7 +12,7 @@ LIRI is like iPhone's SIRI, however, while SIRI is a 	Speech Interpretation and 
 3. At command prompt run `node liri.js <pass in an instruction from above>`
 
 ### Screenshot of Progress
-![Bug](images/Bug.JPG)
+![Bug](images/Capture.JPG)
 
 ## TECHNOLOGIES USED
 
@@ -25,8 +25,7 @@ LIRI is like iPhone's SIRI, however, while SIRI is a 	Speech Interpretation and 
 * NPM spotify-web-api-node
 
 ## Version 1 bugs
-Error shown as unable to take spotify id and secret as 	shown above picture.
-* *fix*: Spotify id and secret error gone
+Error shown as unable to take given spotify id and secret.
 
 ### AUTHOR
 *Min Joseph*
