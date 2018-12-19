@@ -1,4 +1,4 @@
-// lets and vars to run api/s
+// lets and vars to run and get api/s
 let axios = require('axios');
 let spotifyThis = require('node-spotify-api');
 let moment = require('moment');
@@ -9,10 +9,10 @@ let inq = require('inquirer');
 var fs = require('fs');
  
 var command= process.argv[2];
-// Switch functions run deploymeny
+// Switch functions run deployment
 function run(command)
 {
-    // If 'movie-this' deployed "Enter question asked"
+// If 'movie-this' deployed answer "message" asked
     switch(command){
         case 'movie-this':
         inq.prompt([
@@ -23,7 +23,8 @@ function run(command)
             }
         ]).then(function(movie){
             omdbThisMovie(movie.movie);
-        });break;
+        });break; //break loop
+//If else switch statement to 'spotify-this-song'
         case 'spotify-this-song':
         inq.prompt([
             {
@@ -33,7 +34,8 @@ function run(command)
             }
         ]).then(function(song){
             SpotifyThisFunc(song.song);
-        });break;
+        });break;//Break loop
+//Switch statement 'concert-this' bands
         case 'concert-this':
         inq.prompt([
             {
@@ -43,9 +45,7 @@ function run(command)
             }
         ]).then(function(band){
             bandInTownFunc(band.band);
-        });
-     
-        break;
+        });break;
         case "do-what-it-says":
             justDoSomething();
             break;
@@ -98,6 +98,7 @@ function SpotifyThisFunc(song){
         });
       });
 }
+//omdb function to use database to find movie and print movie info to txt  
 function omdbThisMovie(movieName){
     if(movieName.includes(' ')){
         movieName = movieName.replace(' ','%20');
@@ -125,6 +126,7 @@ function omdbThisMovie(movieName){
         }
     );
 }
+//Callback function
 function justDoSomething(){
     fs.readFile('random.txt', "utf8", function(error, data){
       var song = data.split(',');

@@ -22,3 +22,11 @@ Language: English
 Plot: When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family.
 Actors: Tobey Maguire, Willem Dafoe, Kirsten Dunst, James Franco
 ==========================
+Title: Batman
+Release Year: 1989
+IMdB Rating: 7.5
+Country: USA, UK
+Language: English, French, Spanish
+Plot: The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker.
+Actors: Michael Keaton, Jack Nicholson, Kim Basinger, Robert Wuhl
+==========================
