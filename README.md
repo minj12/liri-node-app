@@ -26,7 +26,7 @@ LIRI is like iPhone's SIRI, however, while SIRI is a 	Speech Interpretation and 
 
 ## Version 1 bugs
 - [x] *Fixed* error shown as unable to read given spotify id and secret.
-- [ ]  After `concert-this` band result has no appearance.
+- [x] *Fixed* After `concert-this` band result has no appearance.
 
 ### AUTHOR
 *Min Joseph*
