@@ -25,7 +25,7 @@ LIRI is like iPhone's SIRI, however, while SIRI is a 	Speech Interpretation and 
 * NPM spotify-web-api-node
 
 ## Version 1 bugs
-Error shown as unable to take given spotify id and secret.
+*fixed* Error shown as unable to take given spotify id and secret.
 
 ### AUTHOR
 *Min Joseph*
